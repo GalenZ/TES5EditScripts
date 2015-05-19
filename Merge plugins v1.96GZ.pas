@@ -4,6 +4,8 @@
   http://skyrim.nexusmods.com/mod/37981
   
   *CHANGES*
+  v1.9.6a GZ
+  - altered const 'vs' version number constant from '1.9' to '1.9.6a GZ'
   v1.9.6 GZ - Unofficial patch
   - (GalenZ) fixed bug in CopyGeneralAssets under MO; now gets assets from correct mod folder.
   v1.9.5
@@ -31,7 +33,7 @@ unit mergePlugins;
 uses mteFunctions;
 
 const
-  vs = 'v1.9';
+  vs = 'v1.9.6a GZ';
   dashes = '-----------------------------------------------------------------------------------';
   debug = false; // debug messages
   debugMCM = false;
